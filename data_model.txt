@@ -1,0 +1,98 @@
+db.products.insert({
+    name: "Microsoft Surface",
+    category: "Electronics",
+    model: "7G5-00001",
+    sku: "4967017",
+    img: "http://somewebsite.com/someimage.jpg",
+    price: 499.99,
+    pickup_available: true,
+    description: "Use the 12.3in HD touch screen and the Surface Pen to navigate Web pages, write and upload content and play games. The kickstand makes it easy to adjust Surface Pro 4 for hands-free viewing or typing, and Wi-Fi lets you connect to the Internet quickly",
+    release_date: ISODate("2015-09-01"),
+    specifications: {
+        height: "7.36 inches",
+        width: "10.52 inches",
+        weight: "21.92 ounces",
+        battery_life: "10 hours",
+        display_type: "LCD",
+        touch_screen: true,
+        memory: "2gb",
+        processor_type: "Intel"
+    },
+    reviews: [
+        {
+            subject: "Great Table!",
+            body: "I've been a big apple fan for a while now but recently apple products are just the same thing and different sizes. Not trying to bash Apple, but in my opinion Microsoft has stepped up their game in innovating new things. I was debating whether to buy the SP4 or not. But hearing from many good things about the SP3 I decided to take the chance. First off the SP4 is great! It is extremely fast and has a sleek design. Being a full time student and an estimator; I needed something that could be reliable. Having had high expectations for it, I can say that I haven't been disappointed.",
+            rating: "4.5",
+            user: "someuser01",
+            date: ISODate("2015-09-02"),
+            would_recommend: true
+        },
+        {
+            subject: "Mixed Review!",
+            body: "I really like the Surface Pro 4, I bought 4 for my small company. When the devices work they are flawless smooth and responsive which I will say its about 90% of the time. However many times the touchscreen stops responding, or the pen does not write. On one of the devices the screen starts to flicker and some of the apps close by themselves when in Tablet Mode and the only way to get it to work is by force shutting it off. I also bought 4 keyboards and a lot of times the trackpads do not work. I figure most of those issues can be fixed with updates, however as of right now they are very annoying.",
+            rating: "4.0",
+            user: "someuser01",
+            date: ISODate("2015-09-03"),
+            would_recommend: false
+        },
+        {
+            subject: "Good Deal!",
+            body: "Very nice. Meet all my expectations. Keyboard the best so far. This is quicker than the surface pro 3 I'm glad with my purchase",
+            rating: "4.5",
+            user: "someuser03",
+            date: ISODate("2015-09-03"),
+            would_recommend: true
+        }
+    ],
+    protection_services: ['damage', 'battery', 'power']
+})
+
+
+db.products.insert({
+    name: "Galaxy S6 Edge",
+    category: "Electronics",
+    model: "SMG92BVZDA",
+    sku: "4313104",
+    img: "http://somewebsite.com/someimage.jpg",
+    price: 349.99,
+    pickup_available: true,
+    description: "The Next Big Thing Is Here. Never miss a thing with the Galaxy S6 edge! Enjoy movies, games and photos more than ever on the large 5.7 Quad HD Super AMOLED display. Thanks to its slim sleek design, you can do everything with one hand and get instant access to your favorite apps on the edge scree. From the outside in, the Galaxy S6 edge is designed to entertain",
+    release_date: ISODate("2015-07-01"),
+    specifications: {
+        height: "6.06 inches",
+        width: "2.98 inches",
+        weight: "5.39 ounces",
+        battery_life: "10 hours",
+        wireless_technology: true,
+        unlocked: false,
+        no_contract: false,
+        lte: true
+    },
+    reviews: [
+        {
+            subject: "Great Picture!",
+            body: "Phone is sleek and stylish, with tons of options to personalize. I'm new to Samsung and am loving it so far.",
+            rating: "4.0",
+            user: "someuser01",
+            date: ISODate("2015-09-02"),
+            would_recommend: true
+        },
+        {
+            subject: "Mixed Review!",
+            body: "If you buy this phone, DO NOT leave the store without a very good case. I accidentally dropped mine getting into my car half an hour after getting it and it now has cracked glass all over the upper right side of the back. Not likely repairable, as this phone is glued together and water resistant. Otherwise, excellent phone with bright highly readable screen, and FAST! Battery seems to take all day to wear down.",
+            rating: "4.0",
+            user: "someuser02",
+            date: ISODate("2015-09-03"),
+            would_recommend: false
+        },
+        {
+            subject: "Good Deal!",
+            body: "For the last several years I have been an iPhone user and have been completely satisfied. Prior to that I had problems with Samsung and other android products being great internet and video devices but horrible phones. I have the iPhone 6 Plus and needed a separate phone for work. I went in thinking I would just get another iPhone. I had seen the commercials for the Galaxy S7 and decided to take a chance on it since reviews were good on it and it was different than what I had. I choose the S7 edge and have to say that it is nothing but amazing. Great battery life, amazing camera puts the iPhone to shame, easy to use great options. I like the ability to use to apps split screen. The phone works great syncs quickly to my truck and the sound quality is amazing. If you are thinking about this phone get it you won't be disappointed. This phone has changed my mind about the quality and quality control of Samsung.",
+            rating: "5.0",
+            user: "someuser03",
+            date: ISODate("2015-09-03"),
+            would_recommend: true
+        }
+    ],
+    protection_services: ['damage', 'battery', 'power']
+})
